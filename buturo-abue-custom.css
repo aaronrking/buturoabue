@@ -1,0 +1,292 @@
+/*
+ * Globals
+ */
+
+/* Links */
+a {
+  color: #008751;
+}
+
+a:focus,
+a:hover {
+  color: rgba(0,135,81,0.8);
+}
+
+/*
+ * Base structure
+ */
+
+html,
+body {
+  height: 100%;
+  background-color: #333;
+  font-family: 'Hind', sans-serif;
+}
+
+body {
+  min-height: 75rem;
+  padding-top: 3.55rem;
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.navbar {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.btn-success {
+  color: #fff;
+  background-color: #008751;
+  border-color: #008751;
+}
+
+.btn-success:hover {
+    color: #fff;
+    background-color: #218838;
+    border-color: #1e7e34;
+}
+
+.btn-outline-success {
+    color: #008751;
+    background-color: transparent;
+    background-image: none;
+    border-color: #008751;
+}
+
+.btn-outline-success:hover {
+    color: #fff;
+    background-color: #008751;
+    border-color: #008751;
+}
+
+.border-success {
+    border-color: #008751!important;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-center,
+.flex-center-row {
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-center {
+  flex-direction: column;
+}
+
+/* Navbar */
+
+.navbar {
+  background-color: #fff;
+  border-bottom: 1px solid #008751;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: rgba(0,135,81,0.7);
+}
+
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link,
+.navbar-light .navbar-nav .active>.nav-link:hover,
+.navbar-light .navbar-nav .nav-link.active:hover,
+.navbar-light .navbar-nav .nav-link.show:hover,
+.navbar-light .navbar-nav .show>.nav-link:hover {
+    color: #008751;
+    font-weight: 500;
+}
+
+.navbar-light .navbar-brand {
+  font-family: 'Alfa Slab One', sans-serif;
+  color: #008751;
+}
+
+.navbar-light .navbar-brand:focus,
+.navbar-light .navbar-brand:hover {
+    color: #008751;
+    text-shadow: 1px 1px 1px #f1c40f;
+}
+
+/* Hero background on homepage */
+.home {
+  margin-bottom: 0;
+  background: url('images/buturo-abue-bg.jpg') center right no-repeat;
+  background-size: cover;
+  background-color: #000;
+  height: 550px;
+}
+
+.home p:last-child,
+.home-section p:last-child {
+  margin-bottom: 0;
+}
+
+.home-heading {
+  font-weight: 300;
+  color: #fff;
+}
+
+.home .container {
+  /* max-width: 40rem; */
+}
+
+/* Home Section */
+.home-section,
+footer{
+  padding: 3rem 0;
+}
+
+#anniversary {
+  background-color: #008751;
+  color: #fff;
+}
+
+.big-title {
+  font-family: 'Alfa Slab One', sans-serif;
+  text-shadow: 5px 5px 2px #333;
+  font-size: 5rem;
+  line-height: 1;
+}
+
+.big-title-sub {
+  text-transform: uppercase;
+  text-shadow: 3px 3px 1px #333;
+}
+
+.big-title,
+.big-title-sub {
+  color: #f1c40f;
+  margin-bottom: 0;
+}
+
+#site-sections {
+  background-color: #fff;
+}
+
+.home-image {
+  margin-bottom: 20px;
+}
+
+.home-image figure {
+	background: #008751;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.home-image figure img {
+	opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+  -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.home-image figure:hover img {
+	opacity: .35;
+  -webkit-transform: scale(1.025);
+	transform: scale(1.025);
+}
+
+#gallery,
+.coming-soon {
+  background-color: #f7f7f7;
+}
+
+.card {
+  float: left;
+  width: 33.333%;
+  padding: .75rem;
+  margin-bottom: 2rem;
+  border: 0;
+}
+
+.card > img {
+  margin-bottom: .75rem;
+}
+
+.card-text {
+  font-size: 85%;
+}
+
+.list-section {
+  text-align: left;
+}
+
+/*
+ * Gov. Ayade Letter Page
+ */
+
+#letter-gov-ayade img {
+  margin-bottom: 20px;
+}
+
+/*
+ * Coming Soon page
+ */
+
+.coming-soon {
+  padding: 3rem 0;
+}
+
+.coming-soon h1 {
+  margin-bottom: 2rem;
+  text-shadow: 1px 1px 1px #555;
+  color: #008751;
+}
+
+/* Extra markup and styles for table-esque vertical and horizontal centering */
+.site-wrapper {
+  display: table;
+  width: 100%;
+  height: 100%; /* For at least Firefox */
+  min-height: 100%;
+  -webkit-box-shadow: inset 0 0 5rem rgba(0,0,0,.5);
+          box-shadow: inset 0 0 5rem rgba(0,0,0,.5);
+}
+.site-wrapper-inner {
+  display: table-cell;
+  vertical-align: top;
+}
+.cover-container {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+/*
+ * Footer
+ */
+
+footer {
+  color: #008751;
+  text-align: center;
+  font-size: .75rem;
+}
+
+/*
+ * Media Queries
+ */
+
+@media and screen (max-width: 767px) {
+  .home-section p:last-child {
+    margin-bottom: 20px;
+  }
+  .card {
+    width: 100%;
+  }
+  .big-title-sub {
+    margin-bottom: 20px;
+  }
+}
